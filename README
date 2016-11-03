@@ -1,6 +1,6 @@
 
-        Beta Version (Revision 1.0): Suayb S. Arslan and Hoa Le
-        Jerasure 2.x Multi-Thread Encoder Implementation using POSIX-thread shared-memory method.
+Beta Version (Revision 1.0): Suayb S. Arslan and Hoa Le
+Jerasure 2.x Multi-Thread Encoder Implementation using POSIX-thread shared-memory method.
         
 
 Preface: The original library has different set of erasure coding techniques.
