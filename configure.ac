@@ -13,7 +13,7 @@ AM_INIT_AUTOMAKE([1.13 -Wall -Wno-extra-portability])
 
 # Package default C compiler flags.
 dnl This must be before LT_INIT and AC_PROG_CC.
-: ${CFLAGS='-g -O3 -Wall'}
+: ${CFLAGS='-g -O3 -Wall -pthread'}
 
 LT_INIT([disable-static])
 
