@@ -94,6 +94,7 @@ Reference Doc: See PPT file Jerasure2,0_setup_math_perf at Quantum/Box repositor
 #include "galois.h"
 
 /* #define MULTIPROCESS */
+
 enum Coding_Technique {Reed_Sol_Van, Reed_Sol_R6_Op, Cauchy_Orig, Cauchy_Good, Liberation, Blaum_Roth, Liber8tion, RDP, EVENODD, No_Coding};
 /* We decided to implement reed_sol_van only due to performance reasons */
 /* Global variables */

@@ -108,6 +108,7 @@ Reference Doc: See PPT file Jerasure2,0_setup_math_perf at Quantum/Box repositor
 #include "timing.h"
 
 /* #define MULTIPROCESS */
+
 /* N is not used */
 #define talloc(type, num) (type *) malloc(sizeof(type)*(num))
 
