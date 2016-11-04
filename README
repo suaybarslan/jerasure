@@ -2,7 +2,6 @@
 Beta Version (Revision 1.0): Suayb S. Arslan (Quantum Corp.) and Hoa Le (Quantum Corp.)
 Jerasure 2.x Multi-Thread Encoder Implementation using POSIX-thread shared-memory method.
         
-
 Preface: The original library has different set of erasure coding techniques.
 Based on our testing and simulations, we figured the coding technqiue "reed_sol_van"
 performed the best among others and it turns out that its construction aligns more
@@ -14,6 +13,8 @@ a shared-memory (no-mutex) approach. In this approach, threads share the same bu
 space. Since threads are only allowed to read from but not write to the buffer, we
 have not used mutexes and hence secured good performance by alleviating to generate extra
 code for arranging timing for thread creation and proper data accesses.
+
+------------------------------------------------------------
 
 So this is yet to be verified revision of Jerasure 2.0 which is pretty much Jerasure 1.2 without the
 original Galois Field backend.  Version 2.0 links directly to GF-Complete, which
