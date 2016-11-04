@@ -23,7 +23,9 @@ bin_PROGRAMS = jerasure_01 \
                cauchy_04 \
                liberation_01 \
                encoder \
-               decoder
+               encoderMT2 \
+               decoder \
+               decoderMT2
 
 check_PROGRAMS = 
 
@@ -60,8 +62,12 @@ liberation_01_SOURCES = liberation_01.c
 
 decoder_SOURCES = decoder.c
 encoder_SOURCES = encoder.c
+encoderMT2_SOURCES = encoderMT2.c
+decoderMT2_SOURCES = decoderMT2.c
 
 LDADD = ../src/libJerasure.la
 decoder_LDADD = $(LDADD) ../src/libtiming.a
 encoder_LDADD = $(LDADD) ../src/libtiming.a
+encoderMT2_LDADD = $(LDADD) ../src/libtiming.a
+decoderMT2_LDADD = $(LDADD) ../src/libtiming.a
 reed_sol_time_gf_LDADD = $(LDADD) ../src/libtiming.a
