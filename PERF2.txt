@@ -1,0 +1,85 @@
+This reflects test_jmt.py <filename> run on a Server with 49 GB of memory and Intel(R) Xeon(R) CPU E5620  @ 2.40GHz: 8 cores/16 threads.
+packetsize is optimized by exhausting 10 possibilities for different buffersizes.
+
+BLOCKSIZE is the increment for buffersize and set to 10KB by default.
+K=16, M=8, filesize = 750MB
+
+# uname -a
+Linux lian 2.6.32-573.12.1.el6.x86_64 #1 SMP Tue Dec 15 21:19:08 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux
+
+-- BSIZE:50000 (BLOCKSIZE X 5)
+Avg. Encode Rate (ORJ2.0): 1070.19193521 MB/sec
+Avg. Encode Rate (MTJ2.0):3275.98376979 MB/sec
+Avg. Decode Rate (ORJ2.0): 1243.97850415 MB/sec
+Avg. Decode Rate (MTJ2.0):3083.32428277 MB/sec
+-- BSIZE:1050000 (BLOCKSIZE X 105)
+Avg. Encode Rate (ORJ2.0): 1059.22756415 MB/sec
+Avg. Encode Rate (MTJ2.0):3254.4468354 MB/sec
+Avg. Decode Rate (ORJ2.0): 1076.97888535 MB/sec
+Avg. Decode Rate (MTJ2.0):3057.50587356 MB/sec
+-- BSIZE:2050000 (BLOCKSIZE X 205)
+Avg. Encode Rate (ORJ2.0): 974.614942081 MB/sec
+Avg. Encode Rate (MTJ2.0):3276.99145025 MB/sec
+Avg. Decode Rate (ORJ2.0): 1027.91453076 MB/sec
+Avg. Decode Rate (MTJ2.0):3081.69150356 MB/sec
+-- BSIZE:3050000 (BLOCKSIZE X 305)
+Avg. Encode Rate (ORJ2.0): 975.989785423 MB/sec
+Avg. Encode Rate (MTJ2.0):3291.24587075 MB/sec
+Avg. Decode Rate (ORJ2.0): 1040.79562809 MB/sec
+Avg. Decode Rate (MTJ2.0):3092.42118629 MB/sec
+-- BSIZE:4050000 (BLOCKSIZE X 405)
+Avg. Encode Rate (ORJ2.0): 971.51475721 MB/sec
+Avg. Encode Rate (MTJ2.0):3274.28936439 MB/sec
+Avg. Decode Rate (ORJ2.0): 1023.2329948 MB/sec
+Avg. Decode Rate (MTJ2.0):3062.3096025 MB/sec
+-- BSIZE:5050000 (BLOCKSIZE X 505)
+Avg. Encode Rate (ORJ2.0): 956.825420773 MB/sec
+Avg. Encode Rate (MTJ2.0):3291.32430998 MB/sec
+Avg. Decode Rate (ORJ2.0): 983.422748775 MB/sec
+Avg. Decode Rate (MTJ2.0):3045.90567648 MB/sec
+-- BSIZE:6050000 (BLOCKSIZE X 605)
+Avg. Encode Rate (ORJ2.0): 954.459320992 MB/sec
+Avg. Encode Rate (MTJ2.0):3266.58543085 MB/sec
+Avg. Decode Rate (ORJ2.0): 975.211444848 MB/sec
+Avg. Decode Rate (MTJ2.0):3057.44559759 MB/sec
+-- BSIZE:7050000 (BLOCKSIZE X 705)
+Avg. Encode Rate (ORJ2.0): 916.032380707 MB/sec
+Avg. Encode Rate (MTJ2.0):3275.63079587 MB/sec
+Avg. Decode Rate (ORJ2.0): 934.855362661 MB/sec
+Avg. Decode Rate (MTJ2.0):3045.11264922 MB/sec
+-- BSIZE:8050000 (BLOCKSIZE X 805)
+Avg. Encode Rate (ORJ2.0): 912.059821757 MB/sec
+Avg. Encode Rate (MTJ2.0):3266.94039723 MB/sec
+Avg. Decode Rate (ORJ2.0): 934.998114637 MB/sec
+Avg. Decode Rate (MTJ2.0):3069.4570651 MB/sec
+-- BSIZE:9050000 (BLOCKSIZE X 905)
+Avg. Encode Rate (ORJ2.0): 891.471928493 MB/sec
+Avg. Encode Rate (MTJ2.0):3290.28855899 MB/sec
+Avg. Decode Rate (ORJ2.0): 900.549840374 MB/sec
+Avg. Decode Rate (MTJ2.0):3062.1681094 MB/sec
+-- BSIZE:10050000 (BLOCKSIZE X 1005)
+Avg. Encode Rate (ORJ2.0): 873.916332539 MB/sec
+Avg. Encode Rate (MTJ2.0):3300.05106654 MB/sec
+Avg. Decode Rate (ORJ2.0): 893.172659447 MB/sec
+Avg. Decode Rate (MTJ2.0):3090.59051777 MB/sec
+-- BSIZE:11050000 (BLOCKSIZE X 1105)
+Avg. Encode Rate (ORJ2.0): 832.287945526 MB/sec
+Avg. Encode Rate (MTJ2.0):3281.12376041 MB/sec
+Avg. Decode Rate (ORJ2.0): 872.409558013 MB/sec
+Avg. Decode Rate (MTJ2.0):3084.17212828 MB/sec
+-- BSIZE:12050000 (BLOCKSIZE X 1205)
+Avg. Encode Rate (ORJ2.0): 832.351688562 MB/sec
+Avg. Encode Rate (MTJ2.0):3270.21344128 MB/sec
+Avg. Decode Rate (ORJ2.0): 887.394803005 MB/sec
+Avg. Decode Rate (MTJ2.0):3049.08066545 MB/sec
+-- BSIZE:13050000 (BLOCKSIZE X 1305)
+Avg. Encode Rate (ORJ2.0): 797.455860628 MB/sec
+Avg. Encode Rate (MTJ2.0):3274.1107401 MB/sec
+Avg. Decode Rate (ORJ2.0): 855.954449996 MB/sec
+Avg. Decode Rate (MTJ2.0):3070.93042224 MB/sec
+-- BSIZE:14050000 (BLOCKSIZE X 1405)
+Avg. Encode Rate (ORJ2.0): 798.124201763 MB/sec
+Avg. Encode Rate (MTJ2.0):3273.06743831 MB/sec
+Avg. Decode Rate (ORJ2.0): 868.33186335 MB/sec
+Avg. Decode Rate (MTJ2.0):3061.13306736 MB/sec
+
