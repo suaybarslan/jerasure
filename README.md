@@ -15,6 +15,9 @@ space. Since threads are only allowed to read from but not write to the buffer, 
 have not used mutexes and hence secured good performance by alleviating to generate extra
 code for arranging timing for thread creation and proper data accesses.
 
+Recently, we are also interested in openMP implementation of Jerasure 2.0 through our colleague Joe. 
+The source content for this implementation shall be committed soon. Please see the technical document for more. 
+
 ## Summary of Jerasure 2.0 and This version
 
 So this is yet to be verified revision of Jerasure 2.0 which is pretty much Jerasure 1.2 without the
@@ -23,10 +26,15 @@ is more flexible than the original, and *much* faster, because it leverages SIMD
 instructions.
 Authors: James S. Plank (University of Tennessee)
          Kevin M. Greenan (Box)
+         
+## Publication
+
+Our work has been presented in IEEE International BlackSeaCom conference, Istanbul, Turkey. A pre-print version 
+is available through this repository. Please refer to Xplore for a more recent version. 
 
 ## Online home
 
-The online home for jerasure is:
+The online home for original jerasure is:
 
   - http://jerasure.org/jerasure/jerasure
 
